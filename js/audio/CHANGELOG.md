@@ -1,5 +1,14 @@
 # @gradio/audio
 
+## 0.9.4
+
+### Patch Changes
+
+- Updated dependencies [[`eda33b3`](https://github.com/gradio-app/gradio/commit/eda33b3763897a542acf298e523fa493dc655aee)]:
+  - @gradio/button@0.2.23
+  - @gradio/client@0.12.2
+  - @gradio/upload@0.7.5
+
 ## 0.9.3
 
 ### Patch Changes

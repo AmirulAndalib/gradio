@@ -1,5 +1,19 @@
 # gradio
 
+## 4.20.0
+
+### Features
+
+- [#7518](https://github.com/gradio-app/gradio/pull/7518) [`bd2c695`](https://github.com/gradio-app/gradio/commit/bd2c69532801f9a0626cd1192de158bde6068b9a) - Adds a `gr.DownloadButton` component.  Thanks [@abidlabs](https://github.com/abidlabs)!
+- [#7547](https://github.com/gradio-app/gradio/pull/7547) [`98aa808`](https://github.com/gradio-app/gradio/commit/98aa8082dd228dd481e05c888adb2e91b04f8f48) - Add `/logout` functionality for Gradio auth.  Thanks [@abidlabs](https://github.com/abidlabs)!
+- [#7528](https://github.com/gradio-app/gradio/pull/7528) [`eda33b3`](https://github.com/gradio-app/gradio/commit/eda33b3763897a542acf298e523fa493dc655aee) - Refactors `get_fetchable_url_or_file()` to remove it from the frontend.  Thanks [@abidlabs](https://github.com/abidlabs)!
+- [#7544](https://github.com/gradio-app/gradio/pull/7544) [`f84720c`](https://github.com/gradio-app/gradio/commit/f84720cd76e5bf3321f06383642bdb246a9a36e2) - Prevent paths beginning with `//` or `\\`.  Thanks [@abidlabs](https://github.com/abidlabs)!
+
+### Fixes
+
+- [#7510](https://github.com/gradio-app/gradio/pull/7510) [`08c2d49`](https://github.com/gradio-app/gradio/commit/08c2d491ecac83268ad20f05769ef7e1335089e2) - when adding custom head html, ensure there are no duplicate meta tags.  Thanks [@qkdxorjs1002](https://github.com/qkdxorjs1002)!
+- [#7545](https://github.com/gradio-app/gradio/pull/7545) [`1fa2e91`](https://github.com/gradio-app/gradio/commit/1fa2e914ca4663a47743cc34acdf98c7fcc469c8) - Fixes `auth_message` so that it correctly renders HTML.  Thanks [@abidlabs](https://github.com/abidlabs)!
+
 ## 4.19.2
 
 ### Features

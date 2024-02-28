@@ -1,5 +1,13 @@
 # @gradio/upload
 
+## 0.7.5
+
+### Patch Changes
+
+- Updated dependencies [[`eda33b3`](https://github.com/gradio-app/gradio/commit/eda33b3763897a542acf298e523fa493dc655aee)]:
+  - @gradio/client@0.12.2
+  - @gradio/upload@0.7.5
+
 ## 0.7.4
 
 ### Patch Changes

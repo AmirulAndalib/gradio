@@ -1,10 +1,18 @@
 # @gradio/model3d
 
+## 0.8.3
+
+### Patch Changes
+
+- Updated dependencies [[`eda33b3`](https://github.com/gradio-app/gradio/commit/eda33b3763897a542acf298e523fa493dc655aee)]:
+  - @gradio/client@0.12.2
+  - @gradio/upload@0.7.5
+
 ## 0.8.2
 
 ### Fixes
 
-- [#7511](https://github.com/gradio-app/gradio/pull/7511) [`33f68cb`](https://github.com/gradio-app/gradio/commit/33f68cb6c22897f7996b6c84b0e528c47fae00b5) - Fix Canvas3D/Canvas3DGS async imports.  Thanks [@whitphx](https://github.com/whitphx)!
+- [#7511](https://github.com/gradio-app/gradio/pull/7511) [`33f68cb`](https://github.com/gradio-app/gradio/commit/33f68cb6c22897f7996b6c84b0e528c47fae00b5) - Fix Canvas3D/Canvas3DGS async imports. Thanks [@whitphx](https://github.com/whitphx)!
 
 ## 0.8.1
 
