@@ -31,7 +31,7 @@ botocore==1.43.70
     #   s3transfer
 build==1.2.2.post1
     # via -r test/requirements.in
-certifi==2026.7.22
+certifi==2026.10.19
     # via
     #   httpcore
     #   httpx
@@ -42,10 +42,16 @@ click==8.4.2
     # via huggingface-hub
 contourpy==1.3.2
     # via matplotlib
-coverage==7.15.4
+coverage[toml]==7.15.4
     # via
     #   -r test/requirements.in
     #   pytest-cov
+cuda-bindings==13.4.4
+    # via torch
+cuda-pathfinder==1.8.3
+    # via cuda-bindings
+cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3.0
+    # via torch
 cycler==0.12.1
     # via matplotlib
 decorator==5.3.1
@@ -173,6 +179,47 @@ numpy==2.2.6
     #   scipy
     #   tifffile
     #   transformers
+nvidia-cublas==13.1.1.3
+    # via
+    #   cuda-toolkit
+    #   nvidia-cudnn-cu13
+    #   nvidia-cusolver
+nvidia-cuda-cupti==13.0.85
+    # via cuda-toolkit
+nvidia-cuda-nvrtc==13.0.88
+    # via
+    #   cuda-toolkit
+    #   nvidia-cublas
+nvidia-cuda-runtime==13.0.96
+    # via cuda-toolkit
+nvidia-cudnn-cu13==9.20.0.48
+    # via torch
+nvidia-cufft==12.0.0.61
+    # via cuda-toolkit
+nvidia-cufile==1.15.1.6
+    # via cuda-toolkit
+nvidia-curand==10.4.0.35
+    # via cuda-toolkit
+nvidia-cusolver==12.0.4.66
+    # via cuda-toolkit
+nvidia-cusparse==12.6.3.3
+    # via
+    #   cuda-toolkit
+    #   nvidia-cusolver
+nvidia-cusparselt-cu13==0.8.1
+    # via torch
+nvidia-nccl-cu13==2.29.7
+    # via torch
+nvidia-nvjitlink==13.4.92
+    # via
+    #   cuda-toolkit
+    #   nvidia-cufft
+    #   nvidia-cusolver
+    #   nvidia-cusparse
+nvidia-nvshmem-cu13==3.4.5
+    # via torch
+nvidia-nvtx==13.0.85
+    # via cuda-toolkit
 openai==1.63.2
     # via -r test/requirements.in
 packaging==26.3
@@ -212,7 +259,7 @@ ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.3
     # via stack-data
-pydantic==2.13.4
+pydantic[email]==2.13.4
     # via
     #   -r test/requirements.in
     #   fastapi
@@ -284,8 +331,6 @@ scikit-image==0.25.2
     # via -r test/requirements.in
 scipy==1.15.3
     # via scikit-image
-setuptools==84.0.0
-    # via torch
 shellingham==1.5.4
     # via typer
 six==1.17.0
@@ -310,6 +355,7 @@ tomli==2.4.1
     # via
     #   build
     #   coverage
+    #   huggingface-hub
     #   pytest
 torch==2.13.0
     # via -r test/requirements.in
@@ -327,6 +373,8 @@ traitlets==5.16.1
     #   nbformat
 transformers==5.15.0
     # via -r test/requirements.in
+triton==3.7.1
+    # via torch
 typer==0.27.1
     # via transformers
 typing-extensions==4.16.0
@@ -351,7 +399,7 @@ typing-inspection==0.4.4
     #   pydantic
 tzdata==2026.3
     # via pandas
-urllib3==2.7.0
+urllib3==2.8.0
     # via
     #   botocore
     #   docker
