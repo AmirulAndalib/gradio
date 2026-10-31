@@ -11,7 +11,7 @@
 	"devDependencies": {
 		"@self/build": "workspace:^",
 		"@sveltejs/adapter-auto": "^7.0.1",
-		"@sveltejs/kit": "^2.57.1"
+		"@sveltejs/kit": "^3.0.0"
 	},
 	"dependencies": {
 		"@gradio/video": "workspace:^"
