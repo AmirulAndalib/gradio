@@ -18,7 +18,7 @@
 		"@gradio/theme": "workspace:^",
 		"@self/spa": "workspace:^",
 		"@sveltejs/adapter-auto": "^7.0.1",
-		"@sveltejs/kit": "^2.57.1",
+		"@sveltejs/kit": "^3.0.0",
 		"iframe-resizer": "^5.5.7"
 	},
 	"devDependencies": {

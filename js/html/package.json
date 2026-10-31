@@ -13,7 +13,7 @@
 		"@gradio/icons": "workspace:^",
 		"@gradio/statustracker": "workspace:^",
 		"@gradio/utils": "workspace:^",
-		"handlebars": "^4.7.9"
+		"handlebars": "^4.7.10"
 	},
 	"devDependencies": {
 		"@gradio/preview": "workspace:^"
